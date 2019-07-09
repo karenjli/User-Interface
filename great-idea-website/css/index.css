@@ -54,7 +54,7 @@ table {
 
 html, body {
     height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+	font-family: 'Titillium Web', sans-serif;
 }
 
 h1, h2, h3, h4, h5 {
@@ -64,3 +64,85 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+header nav a {
+	display: inline-block;
+	margin-left: 100px;
+	margin-top: 15px;
+	color: grey; 
+}
+
+.front {
+	width: 100%;
+	margin-bottom: 50px;
+	margin-top: 50px;
+}
+
+.title{
+	display: inline-block;
+	padding: 20px;
+	margin-left: 50px; 
+	width: 45%;
+}
+
+.title h3 {
+	font-size: 80px;
+	text-align: center;
+	padding: 1px;
+}
+
+.title button {
+	font-size: 20px;
+	margin-left: 200px;
+	padding-left: 35px;
+	padding-right: 35px;
+	border-radius: 2px;
+	border: 1px solid black;
+}
+
+
+.top .content {
+	display: inline-block;
+	width: 45%;
+	margin-left: 10px;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	padding-left: 25px;
+}
+
+.middle {
+	padding: 30px;
+	
+}
+
+.middle img {
+	width: 95%;
+}
+
+.bottom .content {
+	display: inline-block;
+	width: 30%;
+	margin: 10px;
+	padding-left: 25px;
+	padding-bottom: 40px;
+}
+
+hr {
+	width: 95%;
+	padding-right: 20px;
+}
+
+footer {
+	padding-left: 25px;
+	margin: 10px;
+	margin-top: 25px;
+}
+
+footer p {
+	padding-top: 25px;
+}
+
+footer .copyright {
+	text-align: center;
+	padding-bottom: 60px;
+}
