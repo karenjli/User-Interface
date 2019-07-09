@@ -64,18 +64,26 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
-
+header nav {
+	background-color: greenyellow;
+	padding-bottom: 20px;
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
 header nav a {
 	display: inline-block;
 	margin-left: 100px;
 	margin-top: 15px;
 	color: grey; 
+	background-color: 
 }
 
 .front {
 	width: 100%;
 	margin-bottom: 50px;
 	margin-top: 50px;
+	padding-top: 50px;
 }
 
 .title{
@@ -89,6 +97,7 @@ header nav a {
 	font-size: 80px;
 	text-align: center;
 	padding: 1px;
+	font-family: Indie Flower;
 }
 
 .title button {
@@ -102,6 +111,20 @@ header nav a {
 	border: 1px solid black;
 }
 
+.title button:hover {
+	animation-name: wonder;
+	animation-duration: 4s;
+	animation-iteration-count: infinite;
+}
+
+@keyframes wonder {
+	0% {background-color: white;}
+	13% {background-color: lightgreen;}
+	25% {background-color: green;}
+	50% {background-color: deepskyblue;}
+	75% {background-color: dodgerblue}
+	100% {background-color: lightcyan;}
+}
 
 .top .content {
 	display: inline-block;
@@ -110,6 +133,10 @@ header nav a {
 	padding-top: 25px;
 	padding-bottom: 25px;
 	padding-left: 25px;
+}
+
+.top .content p {
+	color: red;
 }
 
 .middle {
