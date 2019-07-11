@@ -54,7 +54,7 @@ table {
 
 html, body {
     height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+	font-family: 'Titillium Web', sans-serif;
 }
 
 h1, h2, h3, h4, h5 {
@@ -64,3 +64,110 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+header nav {
+	background-color: greenyellow;
+	padding-bottom: 20px;
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+header nav a {
+	display: inline-block;
+	margin-left: 100px;
+	margin-top: 15px;
+	color: grey; 
+	background-color: 
+}
+
+.front {
+	width: 100%;
+	margin-bottom: 50px;
+	margin-top: 50px;
+	padding-top: 50px;
+}
+
+.title{
+	display: inline-block;
+	padding: 20px;
+	margin-left: 50px; 
+	width: 45%;
+}
+
+.title h3 {
+	font-size: 80px;
+	text-align: center;
+	padding: 1px;
+	font-family: Indie Flower;
+}
+
+.title button {
+	font-size: 20px;
+	margin-left: 200px;
+	padding-top:5px;
+	padding-bottom: 5px;
+	padding-left: 40px;
+	padding-right: 40px;
+	border-radius: 2px;
+	border: 1px solid black;
+}
+
+.title button:hover {
+	animation-name: wonder;
+	animation-duration: 4s;
+	animation-iteration-count: infinite;
+}
+
+@keyframes wonder {
+	0% {background-color: white;}
+	13% {background-color: lightgreen;}
+	25% {background-color: green;}
+	50% {background-color: deepskyblue;}
+	75% {background-color: dodgerblue}
+	100% {background-color: lightcyan;}
+}
+
+.top .content {
+	display: inline-block;
+	width: 45%;
+	margin-left: 10px;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	padding-left: 25px;
+}
+
+.middle {
+	padding: 30px;
+	
+}
+
+.middle img {
+	width: 95%;
+}
+
+.bottom .content {
+	display: inline-block;
+	width: 30%;
+	margin: 10px;
+	padding-left: 25px;
+	padding-bottom: 40px;
+}
+
+hr {
+	width: 95%;
+	padding-right: 20px;
+}
+
+footer {
+	padding-left: 25px;
+	margin: 10px;
+	margin-top: 25px;
+}
+
+footer p {
+	padding-top: 25px;
+}
+
+footer .copyright {
+	text-align: center;
+	padding-bottom: 60px;
+}
